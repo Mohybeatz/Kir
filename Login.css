@@ -1,0 +1,137 @@
+:root{
+    color-scheme: dark;
+}
+/* ------------------------------------ */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.log-box{
+    width: 350px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-color: rgb(1, 1, 1);
+    transform: translate(-50%,-50%);
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    box-shadow: #1f1f1f 3px 3px;
+}
+.log-h1{
+    position: absolute;
+    color: #1e8e1e;
+    display: inline;
+    width: 84%;
+    text-align: center;
+    margin: 10px 0;
+    margin-bottom: 10px;
+    padding: 10px 0;
+    padding-bottom: 0px;
+    font-size: 34px;
+    border-radius: 4px;
+    transition: 0.3S;
+    text-shadow: #114f11 1px -1px;
+}
+.info{
+    position: absolute;
+    top: 70px;
+    width: 345px;
+    padding: 20px 0;
+    padding-bottom: 2px;
+    text-align: center;
+}
+.iuser{
+    font-size: 30px;
+    color: #9DB2BF;
+}
+.ipass{
+    font-size: 25px;
+    color: #9DB2BF;
+    
+}
+.inpall{
+    color: white;
+    position: relative;
+    /* left: 30px; */
+    width: 75%;
+    height: 23px;
+    padding: 2px 0;
+    margin: 5px 0;
+    background-color: #E2E2E2;
+    border: none;
+    background: none;
+    outline: none;
+    border-bottom: 2px solid #101112;
+    transition: 0.3s;
+}
+.inpall:focus{
+    border-bottom: 2px solid #27374D;
+    width: 77%;
+}
+.inpall:hover{
+    border-bottom: 2px solid #27374D;
+}
+.Sin{
+    border-radius: 10px;
+    font-size: 17px;
+    width: 86%;
+    height: 36px;
+    padding-top: 1px ;
+    margin-top: 6px ;
+    background-color: #16FF00;
+    color: black;
+    outline: none;
+    border: 2px solid #16FF00;
+    transition: 0.2s;
+}
+.Sin:hover{
+    color: #16FF00;
+    background-color: #000000;
+}
+.Infend{
+    background-color: rgba(0, 0, 0, 0.99);
+    width: 100%;
+    height: 5%;
+    padding: 1px 0;
+    margin: 3px 0;
+}
+.Infend{
+    color: #16FF00;
+    font-size: 12px;
+}
+.Fpass{
+    float: left;
+    text-decoration: none;
+    color: white;
+    padding: 4px;
+    border: #000000 1px solid;
+    transition: 0.5s;
+    text-shadow: none;
+    font-size: 15px;
+}
+.Fpass:hover{
+    border-bottom: #ffffff 1px solid;
+}
+.Nacc{
+    float: right;
+    text-decoration: none;
+    color: #16FF00;
+    padding: 4px;
+    border: #000000 1px solid;
+    transition: 0.5s;
+    text-shadow: none;
+    font-size: 15px;
+}
+.Nacc:hover{
+    border-bottom: #16FF00 1px solid;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.back-h{
+    width: 20px;
+    display: inline-block;
+}
