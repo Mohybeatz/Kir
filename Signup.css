@@ -20,7 +20,7 @@
 }
 .log-h1{
     position: absolute;
-    color: #1e8e1e;
+    color: #2ee02e;
     display: inline;
     width: 84%;
     text-align: center;
@@ -31,7 +31,7 @@
     font-size: 34px;
     border-radius: 4px;
     transition: 0.3S;
-    text-shadow: #114f11 1px -1px;
+    text-shadow: #29d829 1px -1px;
 }
 .info{
     position: absolute;

@@ -1,5 +1,5 @@
 :root{
-    color-scheme: dark;
+    color-scheme: black;
 }
 *{
     margin: 0;
@@ -7,7 +7,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 body{
-    background-color: #161b22;
+    background-color: #707070;
 }
 /* navbar style => start ================================================================*/
 .div-nav{
@@ -35,12 +35,12 @@ a{
     color: white;
 }
 .a-log{
-    color: #21262d;
+    color: #000000;
     font-size: 15px;
 }
 .Acc{
     right: 5px;
-    background-color: #0de589;
+    background-color: #0dc5e5;
     border-radius: 19px;
     height: 48px;
 }
@@ -60,12 +60,12 @@ a{
     margin-right: 5px;
 }
 .hovli:hover{
-    background-color: #161b22;
+    background-color: #588eda;
     border-radius: 20px;
 }
 
 .home{
-    background-color: #161b22;
+    background-color: #c7c7c7;
     border-radius:20px;
 }
 /* Body style => start ===========================================================================*/
@@ -81,4 +81,9 @@ a{
     width: 200px;
     border-radius: 20px;
     height: 100px;
+}
+h1{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
